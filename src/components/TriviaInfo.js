@@ -5,7 +5,7 @@ class TriviaInfo extends Component {
     render(props) {
         return (
             <div>
-                <h2>Score: </h2>
+                {/* <h2>Score: </h2> */}
                 <h2>Let's Play</h2>
                 <h3>Category: {this.props.triviaInfo.category?.title}</h3>
                 <h3>Points: {this.props.triviaInfo?.value}</h3>
